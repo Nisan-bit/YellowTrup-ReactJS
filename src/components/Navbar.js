@@ -4,6 +4,31 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-8">
+
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+
+            <div className="col-md-4">
+              <ul className="d-flex">
+                <li className="list-unstyled"><Link className="text-decoration-none p-3" to="/signup"></Link>Sign up</li>
+                <li className="list-unstyled"><Link className="text-decoration-none p-3" to="/signin"></Link>Sign in</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <Link class="navbar-brand" to="/">
@@ -75,17 +100,7 @@ function Navbar() {
                 </Link>
               </li>
             </ul>
-            <form class="d-flex">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
+
           </div>
         </div>
       </nav>

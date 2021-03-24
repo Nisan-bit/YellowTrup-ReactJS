@@ -40,7 +40,22 @@ const Products = () => {
             <div className="card">
               <figure>
                 <img
-                  src="images/nisan mobile.jpg"
+                  src="images/BlackWidow-2019-usp02-mobile.jpg"
+                  className="card-img-top"
+                  alt="..."
+                  style={{ height: "200px" }}
+                />
+              </figure>
+              <div className="card-body shadow-lg">
+                <h5 className="card-title">Ecommerce</h5>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className="card">
+              <figure>
+                <img
+                  src="images/1.0.0.jpg"
                   className="card-img-top"
                   alt="..."
                   style={{ height: "200px" }}
@@ -55,14 +70,14 @@ const Products = () => {
             <div className="card">
               <figure>
                 <img
-                  src="..."
+                  src="images/xboxonex_featured.jpg"
                   className="card-img-top"
                   alt="..."
                   style={{ height: "200px" }}
                 />
               </figure>
               <div className="card-body shadow-lg">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">X-Box</h5>
               </div>
             </div>
           </div>
@@ -70,14 +85,14 @@ const Products = () => {
             <div className="card">
               <figure>
                 <img
-                  src="..."
+                  src="images/apple-iphone-12-concept_158711095630.jpg"
                   className="card-img-top"
                   alt="..."
                   style={{ height: "200px" }}
                 />
               </figure>
               <div className="card-body shadow-lg">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">I-phone 12</h5>
               </div>
             </div>
           </div>
@@ -85,14 +100,14 @@ const Products = () => {
             <div className="card">
               <figure>
                 <img
-                  src="..."
+                  src="images/bs6-hero-xpulse-200-rear-three-quarter-1b39.png"
                   className="card-img-top"
                   alt="..."
                   style={{ height: "200px" }}
                 />
               </figure>
               <div className="card-body shadow-lg">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Hero X-pulse 200</h5>
               </div>
             </div>
           </div>
@@ -100,29 +115,14 @@ const Products = () => {
             <div className="card">
               <figure>
                 <img
-                  src="..."
+                  src="images/1.png"
                   className="card-img-top"
                   alt="..."
                   style={{ height: "200px" }}
                 />
               </figure>
               <div className="card-body shadow-lg">
-                <h5 className="card-title">Card title</h5>
-              </div>
-            </div>
-          </div>
-          <div className="col">
-            <div className="card">
-              <figure>
-                <img
-                  src="..."
-                  className="card-img-top"
-                  alt="..."
-                  style={{ height: "200px" }}
-                />
-              </figure>
-              <div className="card-body shadow-lg">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">HEAD PHONE </h5>
               </div>
             </div>
           </div>
